@@ -19,6 +19,7 @@
     img{
       width: 100%;
       height: auto;
+
     }
     .a_logo{
       position: absolute;
@@ -27,6 +28,19 @@
       transform: translateX(-50%);
 
     }
+    img.bg_img{
+      min-width: 640px;
+    }
+    body:active .backpack_detail{
+      border: solid 3px #d13a56;
+    }
+    body:active .backpack_link{
+      border: solid 3px #d13a56;
+    }
+    body:active nav{
+      border: solid 3px #d13a56;
+    }
+
     img.logo{
       width: 50px;
       height: 50px;
@@ -35,6 +49,7 @@
 
     }
     nav{
+      min-width: 640px;
       position: absolute;
       height: 50px;
       width: 100%;
@@ -89,18 +104,21 @@
     }
     a.backpack_link{
       position: absolute;
-      height: 420px;
-      width: 410px;
-      top: 450px;
-      border: solid 3px;
+      height: 41%;
+      width: 33.5%;
+      top: 43%;
+ /*     border: solid 3px;*/
+      min-width: 215px;
     }
     a.backpack_detail{
       position: absolute;
-      height: 345px;
-      width: 345px;
-      top: 530px;
-      left: 95px;
-      border: solid 3px;
+      height: 60%;
+      width: 85%;
+      top: 29%;
+      left: 8%;
+/*      border: solid 3px;*/
+      min-width: 560px;
+
     }
 
 

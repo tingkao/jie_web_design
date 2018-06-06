@@ -28,6 +28,9 @@
       transform: translateX(-50%);
 
     }
+    img.bg_account,img.bg_cart{
+      top: 5px;
+    }
     img.bg_img{
       min-width: 640px;
     }

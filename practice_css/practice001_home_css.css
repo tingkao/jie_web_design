@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+
+  <title>jiepage</title>
+  <style type="text/css">
+    @charset "UTF-8";
+    html,body {
+      margin: 0px;
+      padding: 0px;
+    }
+
+    * {
+      font-family: 微軟正黑體;
+      position: relative;
+      vertical-align: top;
+    }
+    img{
+      width: 100%;
+      height: auto;
+    }
+    .a_logo{
+      position: absolute;
+      width: 200px;
+      left: 50%;
+      transform: translateX(-50%);
+
+    }
+    img.logo{
+      width: 50px;
+      height: 50px;
+      left: 50%;
+      transform: translateX(-50%);
+
+    }
+    nav{
+      position: absolute;
+      height: 50px;
+      width: 100%;
+      top: 0px;
+      background-color: #fefefe;
+      user-select: none;
+      overflow: hidden;
+
+    }
+
+    nav div{
+      display: inline-block;
+    }
+    .nav_r,.nav_l{
+      position: absolute;
+      right: 0px;
+      top: 50%;
+      transform: translateY(-50%);
+      font-weight: 500;
+      
+
+    }
+    .nav_l{
+      left: 0px;
+    }
+    .nav_l a{
+      padding: 30px 20px 30px 30px;
+    }
+    .nav_r a{
+      padding: 30px 30px 30px 20px;
+
+    }
+    a{
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font-size: 100%;
+      font: inherit;
+      vertical-align: baseline;
+      text-decoration: none;
+    }
+    .nav_r a,.nav_l a{
+      cursor: pointer;
+      color: #999;
+
+
+    }
+    .nav_btn:hover{
+      background-color: #bbb;
+      color: #fff;
+      text-decoration: none;
+    }
+    a.backpack_link{
+      position: absolute;
+      height: 420px;
+      width: 410px;
+      top: 450px;
+      border: solid 3px;
+    }
+    a.backpack_detail{
+      position: absolute;
+      height: 345px;
+      width: 345px;
+      top: 530px;
+      left: 95px;
+      border: solid 3px;
+    }
+
+
+  </style>
+</head>
+<body>
+
+  <script src="scripts/jquery-3.1.0.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js"></script>
+  <script src="js/index.js"></script>
+  <script type="text/javascript">
+
+  </script>
+
+</body>
+</html>
